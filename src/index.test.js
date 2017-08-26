@@ -22,5 +22,12 @@ describe('naruto-names',function(){
         it('should return an item from naruto.all',function(){
             expect(naruto.all).to.include(naruto.random());
         });
+        it('should return an array of random items from naruto.all if passed a number',function(){
+            var randomItems = naruto.random(3);
+            expect(randomItems).to.have.length(3);
+            randomItems.forEach(function(item) {
+                expect(naruto.all).to.include(item);
+            }, this);
+        });
     });
 });
