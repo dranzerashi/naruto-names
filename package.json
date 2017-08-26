@@ -1,0 +1,26 @@
+{
+  "name": "naruto-names",
+  "version": "1.0.0",
+  "description": "Generate random naruto names/jutsu",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dranzerashi/naruto-names.git"
+  },
+  "keywords": [
+    "random",
+    "naruto"
+  ],
+  "author": "'Ashith <'dranzer.ashi@gmail.com'>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dranzerashi/naruto-names/issues"
+  },
+  "homepage": "https://github.com/dranzerashi/naruto-names#readme",
+  "dependencies": {
+    "unique-random-array": "^1.0.0"
+  }
+}
